@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valentine's Letter</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #fce4ec;
+      animation: fadeIn 2s ease-in-out;
+      background-image: url(417240410_1519394865510235_8422129652485276372_n.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .letter {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+      margin-left: 500px;
+      width: 700px;
+      height: 400px;
+    }
+
+    .heart-container {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: bounceHeart 1s infinite;
+    }
+
+    .heart {
+      color: #e91e63;
+      font-size: 36px;
+    }
+
+    @keyframes bounceHeart {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <div class="letter">
+    <div class="heart-container">
+      <span class="heart">❤️</span>
+    </div>
+    <p>Dear:    RIALYN SOBERANO,</p>
+    <p>Happy Valentine's Day! 🌹</p>
+    <p>On this special day, I wanted to let you know that you mean a lot to me. Your smile brightens my day, and your presence makes everything better.</p>
+    <p>Wishing you a day filled with love and happiness. If you're up for it, I'd love to spend some time together to celebrate this wonderful occasion.</p>
+    <p>Looking forward to creating beautiful memories with you.</p>
+    <p>With heartfelt affection,</p>
+    <p>PILIKYO</p>
+
+    <audio controls>
+              <source src="Ed_Sheeran_-_Perfect.mp3">
+    </audio>
+
+  </div>
+</body>
+</html>
